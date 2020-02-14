@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+      margin-left:35%;
+  }
+
+  .scores {
+      margin-left: 30%;
+  }

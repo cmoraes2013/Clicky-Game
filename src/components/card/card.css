@@ -1,10 +1,28 @@
 .card {
-    background: lightcoral;
     margin: 1rem;
-    height: 250px;
+    height: 150px;
     position: relative;
-    width: 325px;
+    width: 225px;
     border-radius: 2px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
+    float: left;
   }
+
+  .card > .img-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background:black;
+    
+  }
+  .card > .img-container > img {
+    width: 40%
+    
+  }
+  
+  .card > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+  
